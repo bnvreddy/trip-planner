@@ -11,3 +11,4 @@ Team:
 - Member 1: Frontend
 - Member 2: Backend
 - Member 3: APIs & Integrations
+- member 5
