@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Horizontal scroll for day tabs without a visible scrollbar. */
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html,
+body {
+  /* Keep iOS from zooming when a form field is focused. */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Leaflet controls sit under our sticky header / sheet buttons. */
+.leaflet-control-zoom a {
+  min-width: 34px;
+  min-height: 34px;
+  line-height: 34px;
+}

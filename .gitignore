@@ -1,0 +1,26 @@
+# ---- Python / backend ----
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets / local config
+.env
+backend/.env
+
+# ---- Node / frontend ----
+node_modules/
+frontend/dist/
+dist/
+*.local
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Stray logs ----
+*.log
